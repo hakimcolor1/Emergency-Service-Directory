@@ -8,11 +8,11 @@ hearts.forEach((hrt) => {
     // hrt.style.color = 'red';
   });
 });
-// let coin = document.getElementById('coin');
-// let call = document.querySelectorAll('.call');
-// let srvName = document.querySelectorAll('.srvNam');
-// let cNum = document.querySelectorAll('.cNum');
-// let display = document.querySelector('.display');
+let coin = document.getElementById('coin');
+let call = document.querySelectorAll('.call');
+let srvName = document.querySelectorAll('.srvNam');
+let cNum = document.querySelectorAll('.cNum');
+let display = document.querySelector('.display');
 
 call.forEach((cin, index) => {
   cin.addEventListener('click', () => {
