@@ -19,7 +19,7 @@ call.forEach((cin, index) => {
     let currentcoin = Number(coin.innerText);
 
     if (currentcoin > 0) {
-      currentcoin -= 20;
+      // currentcoin -= 20;
       coin.innerText = currentcoin;
 
       let srv = srvName[index].innerText;
