@@ -37,7 +37,7 @@ call.forEach((cin, index) => {
           <h1 class="font-bold text-black">${srv}</h1>
           <h2 class="text-gray-900">${cnum}</h2>
         </div>
-        <div>${}</div>
+        <div>${time}</div>
       `;
 
       display.appendChild(post);
